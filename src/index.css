@@ -1,13 +1,27 @@
+@import url(//db.onlinewebfonts.com/c/a1ab9bebae84d82fbcfe930c4643de7a?family=CeraCY-Regular);
+@import url(//db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=CeraCY-Bold);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "cerareg";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.swiper-slide {
+  filter: blur(4px);
+}
+
+.swiper-slide-active {
+  filter: blur(0);
+}
+.img-slider {
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 76%,
+    transparent 96%
+  );
 }
