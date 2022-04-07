@@ -100,10 +100,13 @@ const Projects = () => {
         <h2 className="uppercase text-center pb-7">
           {Text[index].title}
         </h2>
-        <p className="font-cerareg text-[#919395] text-base text-center max-w-[1024px]">
+        <p className="font-cerareg text-txtcolor text-base text-center max-w-[1024px]">
           {Text[index].description}
         </p>
-        <Button link={Text[index].link}>
+        <Button
+          link={Text[index].link}
+          classname="w-1/3"
+        >
           View Project
         </Button>
       </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "../components/Button";
+import { BsArrowRight } from "react-icons/bs";
 
 const Contact = () => {
   const Info = [
@@ -15,6 +17,22 @@ const Contact = () => {
       value: "canucotdaved@gmail.com",
     },
   ];
+
+  const input = [
+    {
+      name: "Fullname",
+      type: "text",
+    },
+    {
+      name: "Email",
+      type: "email",
+    },
+    {
+      name: "Phone",
+      type: "number",
+    },
+  ];
+
   return (
     <div className="max-w-[1440px] mx-auto px-5 flex flex-col md:flex-row h-[100vh] items-center justify-center">
       <div className="w-1/2 flex flex-col">
@@ -42,7 +60,44 @@ const Contact = () => {
           </>
         ))}
       </div>
-      <div className="w-1/2 "></div>
+      <div className="w-1/2 mt-16">
+        <form
+          action=""
+          className="w-full shadow-3xl drop-shadow-2xl p-16"
+        >
+          <h3 className="font-cerabold text-6xl text-white uppercase mb-10 text-center">
+            Contact Form
+          </h3>
+          {input.map((inpt, idx) => (
+            <div
+              className="border-b border-txtcolor mb-10"
+              key={idx}
+            >
+              <input
+                type={inpt.type}
+                name={inpt.name}
+                placeholder={inpt.name}
+                className="bg-transparent font-cerareg text-base text-txtcolor w-full placeholder:font-cerareg pb-4 appearance-none  focus:outline-none"
+              />
+            </div>
+          ))}
+          <div className="border-b border-txtcolor mb-8">
+            <textarea
+              placeholder="Message"
+              className="bg-transparent font-cerareg text-base text-txtcolor w-full placeholder:font-cerareg pb-4 appearance-none  focus:outline-none"
+            ></textarea>
+          </div>
+          <div className="flex">
+            <Button
+              link="/"
+              classname="w-1/2 flex items-center justify-center"
+            >
+              Send Message
+              <BsArrowRight className="ml-3" />
+            </Button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };

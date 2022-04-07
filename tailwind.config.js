@@ -15,6 +15,10 @@ module.exports = {
       colors: {
         txtcolor: "#919395",
       },
+      boxShadow: {
+        "3xl":
+          "1px 0px 25px 0px rgba(0,0,0,0.75);",
+      },
     },
   },
   plugins: [],
