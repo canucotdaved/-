@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc012671.css",
+    "main.js": "/static/js/main.3ee37d7e.js",
+    "static/media/Tireworks.png": "/static/media/Tireworks.0640b78f4f1e2ef88216.png",
+    "static/media/cowscrown.png": "/static/media/cowscrown.cea5dfc13c4943fb3914.png",
+    "static/media/young.png": "/static/media/young.de0be16acfe57cd334c8.png",
+    "static/media/hachiromethod.png": "/static/media/hachiromethod.f1651dd192e1d6357da4.png",
+    "static/media/MySelf.jpg": "/static/media/MySelf.2beefce1029b73635442.jpg",
+    "index.html": "/index.html",
+    "main.dc012671.css.map": "/static/css/main.dc012671.css.map",
+    "main.3ee37d7e.js.map": "/static/js/main.3ee37d7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc012671.css",
+    "static/js/main.3ee37d7e.js"
+  ]
+}
