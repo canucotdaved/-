@@ -21,7 +21,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="w-full px-20 flex flex-row justify-between fixed bottom-[35px]">
+    <footer className="w-full px-20 flex flex-row justify-between relative  md:fixed bottom-[35px]">
       <div className="flex flex-col justify-center items-center pl-6">
         {icons.map((icon, index) => (
           <a
