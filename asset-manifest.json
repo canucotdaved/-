@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/FullPagePortfolio/static/css/main.dc012671.css",
-    "main.js": "/FullPagePortfolio/static/js/main.bb67e195.js",
-    "static/media/Tireworks.png": "/FullPagePortfolio/static/media/Tireworks.0640b78f4f1e2ef88216.png",
-    "static/media/cowscrown.png": "/FullPagePortfolio/static/media/cowscrown.cea5dfc13c4943fb3914.png",
-    "static/media/young.png": "/FullPagePortfolio/static/media/young.de0be16acfe57cd334c8.png",
-    "static/media/hachiromethod.png": "/FullPagePortfolio/static/media/hachiromethod.f1651dd192e1d6357da4.png",
-    "static/media/MySelf.jpg": "/FullPagePortfolio/static/media/MySelf.2beefce1029b73635442.jpg",
-    "index.html": "/FullPagePortfolio/index.html",
-    "main.dc012671.css.map": "/FullPagePortfolio/static/css/main.dc012671.css.map",
-    "main.bb67e195.js.map": "/FullPagePortfolio/static/js/main.bb67e195.js.map"
+    "main.css": "/-/static/css/main.dc012671.css",
+    "main.js": "/-/static/js/main.dfbc3309.js",
+    "static/media/Tireworks.png": "/-/static/media/Tireworks.0640b78f4f1e2ef88216.png",
+    "static/media/cowscrown.png": "/-/static/media/cowscrown.cea5dfc13c4943fb3914.png",
+    "static/media/young.png": "/-/static/media/young.de0be16acfe57cd334c8.png",
+    "static/media/hachiromethod.png": "/-/static/media/hachiromethod.f1651dd192e1d6357da4.png",
+    "static/media/MySelf.jpg": "/-/static/media/MySelf.2beefce1029b73635442.jpg",
+    "index.html": "/-/index.html",
+    "main.dc012671.css.map": "/-/static/css/main.dc012671.css.map",
+    "main.dfbc3309.js.map": "/-/static/js/main.dfbc3309.js.map"
   },
   "entrypoints": [
     "static/css/main.dc012671.css",
-    "static/js/main.bb67e195.js"
+    "static/js/main.dfbc3309.js"
   ]
 }
