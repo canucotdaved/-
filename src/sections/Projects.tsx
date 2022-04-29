@@ -64,7 +64,7 @@ const Projects = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="flex flex-col  justify-center static md:absolute md:z-10 bottom-0 md:bottom-[6rem] font-cerabold text-white tracking-wide ">
+      <div className="flex flex-col  justify-center static md:absolute md:z-10 bottom-0 md:bottom-[2rem] font-cerabold text-white tracking-wide ">
         <h2 className="uppercase text-center pb-7 text-6xl md:text-8xl">
           {Text[index].Title}
         </h2>
