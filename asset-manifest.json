@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/-/static/css/main.962a733b.css",
-    "main.js": "/-/static/js/main.dfbc3309.js",
-    "static/media/Tireworks.png": "/-/static/media/Tireworks.0640b78f4f1e2ef88216.png",
-    "static/media/cowscrown.png": "/-/static/media/cowscrown.cea5dfc13c4943fb3914.png",
-    "static/media/young.png": "/-/static/media/young.de0be16acfe57cd334c8.png",
-    "static/media/hachiromethod.png": "/-/static/media/hachiromethod.f1651dd192e1d6357da4.png",
+    "main.css": "/-/static/css/main.9f55c0c1.css",
+    "main.js": "/-/static/js/main.83e04284.js",
+    "static/media/cowscrown.png": "/-/static/media/cowscrown.4bc67c3ed094d90c0bf1.png",
+    "static/media/tireworks.png": "/-/static/media/tireworks.4b1f6bae7b52e7c1a5c8.png",
+    "static/media/purebella.png": "/-/static/media/purebella.e18317b0205c9319a115.png",
+    "static/media/restorepatch.png": "/-/static/media/restorepatch.52f487514b06773646e0.png",
+    "static/media/hachiromethod.png": "/-/static/media/hachiromethod.61bb1eabaf9a2eac9400.png",
     "static/media/MySelf.jpg": "/-/static/media/MySelf.2beefce1029b73635442.jpg",
     "static/media/CeraRegular.woff": "/-/static/media/CeraRegular.9b407b2bd141a042a6e1.woff",
     "static/media/CeraBold.woff": "/-/static/media/CeraBold.2e82d303c5ff3f5a30db.woff",
     "index.html": "/-/index.html",
-    "main.962a733b.css.map": "/-/static/css/main.962a733b.css.map",
-    "main.dfbc3309.js.map": "/-/static/js/main.dfbc3309.js.map"
+    "main.9f55c0c1.css.map": "/-/static/css/main.9f55c0c1.css.map",
+    "main.83e04284.js.map": "/-/static/js/main.83e04284.js.map"
   },
   "entrypoints": [
-    "static/css/main.962a733b.css",
-    "static/js/main.dfbc3309.js"
+    "static/css/main.9f55c0c1.css",
+    "static/js/main.83e04284.js"
   ]
 }
