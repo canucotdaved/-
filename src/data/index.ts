@@ -1,7 +1,8 @@
 import cowscrown from "../assets/cowscrown.png";
 import hachiromethod from "../assets/hachiromethod.png";
-import tireworks from "../assets/Tireworks.png";
-import young from "../assets/young.png";
+import tirework from "../assets/tireworks.png";
+import purebella from "../assets/purebella.png";
+import restore from "../assets/restorepatch.png";
 const tech = [
   {
     id: 1,
@@ -23,7 +24,7 @@ const tech = [
 const Images = [
   {
     id: 1,
-    image: tireworks,
+    image: tirework,
     alt: "57 tirework landing",
   },
   {
@@ -31,15 +32,21 @@ const Images = [
     image: hachiromethod,
     alt: "hachiro landing",
   },
+
   {
     id: 3,
-    image: young,
-    alt: "Ocean landing",
+    image: cowscrown,
+    alt: "cows landing",
   },
   {
     id: 4,
-    image: cowscrown,
-    alt: "cows landing",
+    image: purebella,
+    alt: "Purebella Vita Homepage",
+  },
+  {
+    id: 5,
+    image: restore,
+    alt: "Restore Patch Homepage",
   },
 ];
 const Text = [
@@ -59,17 +66,24 @@ const Text = [
   },
   {
     id: Images[2],
-    Title: "Ocean Sega Black",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus saepe maiores aperiam ipsum error omnis? Ipsam nihil reprehenderit enim molestias, non architecto tempora inventore odio, quo nesciunt esse vero voluptatem.",
-    link: "http://yan-oce.com/ohtsu/",
-  },
-  {
-    id: Images[3],
     Title: "Cows Crown",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus saepe maiores aperiam ipsum error omnis? Ipsam nihil reprehenderit enim molestias, non architecto tempora inventore odio, quo nesciunt esse vero voluptatem.",
     link: "https://k-syu.com/cowscrown/index.html",
+  },
+  {
+    id: Images[3],
+    Title: "Purebella Vita",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus saepe maiores aperiam ipsum error omnis? Ipsam nihil reprehenderit enim molestias, non architecto tempora inventore odio, quo nesciunt esse vero voluptatem.",
+    link: "https://purebellavita.com/",
+  },
+  {
+    id: Images[4],
+    Title: "Restore Patch",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus saepe maiores aperiam ipsum error omnis? Ipsam nihil reprehenderit enim molestias, non architecto tempora inventore odio, quo nesciunt esse vero voluptatem.",
+    link: "https://restorepatch.com/",
   },
 ];
 const Info = [

@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        cerareg: ["CeraCY-Regular"],
-        cerabold: ["CeraCY-Bold"],
+        cerareg: ["cerareg"],
+        cerabold: ["cerabold"],
       },
       backgroundImage: {
         "gradient-radial-to-br":

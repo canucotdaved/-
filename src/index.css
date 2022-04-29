@@ -1,9 +1,19 @@
-@import url(//db.onlinewebfonts.com/c/a1ab9bebae84d82fbcfe930c4643de7a?family=CeraCY-Regular);
-@import url(//db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=CeraCY-Bold);
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: cerabold;
+  src: url(./assets/CeraBold.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: cerareg;
+  src: url(./assets/CeraRegular.woff)
+    format("woff");
+}
+
 body {
   margin: 0;
   font-family: "cerareg";
